@@ -1,0 +1,6 @@
+2025-08-23T10:00:12.396+0800	info	wx-msg-chat/config.go:366	日志系统初始化完成	{"level": "debug", "format": "console", "output": "both", "file_path": "./logs/app.log", "max_age_days": 30, "max_size_mb": 100, "max_backups": 3, "compress": true}
+2025-08-23T10:00:12.397+0800	info	wx-msg-chat/main.go:24	应用启动	{"name": "wx-msg-chat", "version": "1.0.0"}
+2025-08-23T10:00:12.397+0800	info	wx-msg-chat/config.go:390	正在连接数据库	{"dsn": "root:Geek@135#@tcp(120.55.65.180:60100)/db_veeyii?charset=utf8mb4&parseTime=true&loc=Local"}
+2025-08-23T10:00:12.556+0800	info	wx-msg-chat/config.go:433	数据库连接成功	{"host": "120.55.65.180", "port": 60100, "database": "db_veeyii", "charset": "utf8"}
+2025-08-23T10:00:12.563+0800	info	wx-msg-chat/config.go:468	Redis连接成功
+2025-08-23T10:00:12.563+0800	info	wx-msg-chat/mq_util.go:106	正在连接RabbitMQ服务器	{"host": "localhost", "port": 5672, "vhost": "wxchat", "username": "test522"}

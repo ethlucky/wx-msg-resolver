@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm:*)",
+      "Bash(go:*)",
+      "Bash(env)",
+      "Bash(ping:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(grep:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
